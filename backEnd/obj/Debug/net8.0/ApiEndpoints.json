@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "backEnd.Controllers.intentoPagoController",
+    "Method": "Create",
+    "RelativePath": "api/intentoPago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "backEnd.Application.DTO.createIntencionPagoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backEnd.Controllers.intentoPagoController",
+    "Method": "Get",
+    "RelativePath": "api/intentoPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backEnd.Controllers.UsuarioDeudorController",
+    "Method": "Get",
+    "RelativePath": "api/UsuarioDeudor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
