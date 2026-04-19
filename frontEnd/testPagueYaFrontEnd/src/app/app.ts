@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { FormularioIntentoPago } from './features/formulario-intento-pago/formulario-intento-pago';
+import { ListaClienteDeudores } from './lista-cliente-deudores/lista-cliente-deudores';
 
 @Component({
   selector: 'app-root',
-  imports: [FormularioIntentoPago],
+  imports: [ListaClienteDeudores],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

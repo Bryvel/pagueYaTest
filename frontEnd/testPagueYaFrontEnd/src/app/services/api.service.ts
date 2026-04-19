@@ -14,4 +14,10 @@ export class ApiService {
   get(endpoint: string) {
     return this.http.get(`${this.baseUrl}/${endpoint}`);
   }
+
+ getList(endpoint: string) {
+    return this.http.get<[]>(`${this.baseUrl}/${endpoint}`);
+  }
+
+    
 }

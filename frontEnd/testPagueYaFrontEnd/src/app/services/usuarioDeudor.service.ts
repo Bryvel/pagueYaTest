@@ -1,13 +1,12 @@
 import { Injectable } from '@angular/core';
 import { ApiService } from './api.service';
-import { IntentoPago } from '../models/intento-pago.model';
+import { UsuarioDeudor } from '../models/usuario-deudor.model';
 
 @Injectable({ providedIn: 'root' })
-export class IntencionPago {
+export class UsuarioDeudorService {
   constructor(private api: ApiService) {}
 
-  create(data: IntentoPago) {
-    return this.api.post('intentoPago', data);
+    getAll(){
+   return this.api.getList('UsuarioDeudor')
   }
-
 }
