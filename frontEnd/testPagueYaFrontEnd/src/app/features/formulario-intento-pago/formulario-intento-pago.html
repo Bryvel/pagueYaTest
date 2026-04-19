@@ -1,0 +1,29 @@
+
+<h2>Registrar intención de pago</h2>
+<form [formGroup]="formularioIntento" (ngSubmit)="submitForm()" >
+    
+
+  <div class="inputForm">
+    <label>Monto:</label>
+    <input type="number" 
+    formControlName="montoPropuesto"
+    id="MontoPropuesto">
+  </div>
+
+  <div class="inputForm">
+    <label>Fecha:</label>
+    <input type="date" 
+    formControlName="fecha"
+    id="Fecha">
+  </div>
+
+   <div class="inputButton">
+   <button type="submit" [disabled]="!formularioIntento.valid">Enviar</button>
+   </div>
+
+</form>
+
+
+
+
+

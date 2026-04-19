@@ -1,0 +1,47 @@
+.container {
+    max-width: 300px;
+    margin: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.inputButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+}
+
+.inputForm {
+    padding: 20px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    padding: 50px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+}
+
+.success {
+    color: green;
+}
