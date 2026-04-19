@@ -1,7 +1,7 @@
 import { Component,OnInit } from '@angular/core';
-import { UsuarioDeudorService } from '../services/usuarioDeudor.service';
+import { UsuarioDeudorService } from '../../services/usuarioDeudor.service';
 import { MatTableModule } from '@angular/material/table';
-import { UsuarioDeudor } from '../models/usuario-deudor.model';
+import { UsuarioDeudor } from '../../models/usuario-deudor.model';
 import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -9,7 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialog } from '@angular/material/dialog';
-import { FormularioIntentoPago } from '../features/formulario-intento-pago/formulario-intento-pago';
+import { FormularioIntentoPago } from '../formulario-intento-pago/formulario-intento-pago';
 
 @Component({
   selector: 'app-lista-cliente-deudores',
